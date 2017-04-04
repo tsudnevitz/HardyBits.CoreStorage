@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreStorage", "CoreStorage\CoreStorage.csproj", "{E8CA5107-4861-4005-A405-3FED20582566}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreStorage.Console.Client", "CoreStorage.Console.Client\CoreStorage.Console.Client.csproj", "{685968E3-84B6-4611-8542-C2445CA7157A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{53DCCADA-FE5E-4112-A7BD-167D8F2F6AAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreStorage.Tests", "CoreStorage.Tests\CoreStorage.Tests.csproj", "{B6815F13-6A84-4E34-AA81-2199BE307A89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8CA5107-4861-4005-A405-3FED20582566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8CA5107-4861-4005-A405-3FED20582566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8CA5107-4861-4005-A405-3FED20582566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8CA5107-4861-4005-A405-3FED20582566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{685968E3-84B6-4611-8542-C2445CA7157A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{685968E3-84B6-4611-8542-C2445CA7157A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{685968E3-84B6-4611-8542-C2445CA7157A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{685968E3-84B6-4611-8542-C2445CA7157A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6815F13-6A84-4E34-AA81-2199BE307A89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6815F13-6A84-4E34-AA81-2199BE307A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6815F13-6A84-4E34-AA81-2199BE307A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6815F13-6A84-4E34-AA81-2199BE307A89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B6815F13-6A84-4E34-AA81-2199BE307A89} = {53DCCADA-FE5E-4112-A7BD-167D8F2F6AAA}
+	EndGlobalSection
+EndGlobal
